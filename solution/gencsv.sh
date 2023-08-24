@@ -7,6 +7,6 @@ rows=3
 for (( i=0; i<=$rows; i++ )) 
 do 
     #number1=$i number2=$((RANDOM % 300)) row="$number1, $number2" 
-    echo $row >> inputFile.csv 
+    echo $row >> inputdata.csv 
 done 
 echo "CSV file generated successfully!"
